@@ -4,7 +4,7 @@
 ## Identitas
 
 Nama Lengkap : Richard Halim
-NIM : 1241400084
+NIM : 124140084
 Kelas Praktikum : RA
 
 
