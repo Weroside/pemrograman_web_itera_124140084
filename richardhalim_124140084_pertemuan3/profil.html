@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Halaman profil praktikum PAW Richard Halim, NIM 124140084, bertema koleksi game.">
+  <title>Koleksi Game Favorit — Richard Halim</title>
+</head>
+<body>
+  <a href="#konten-utama">Lewati ke konten utama</a>
+
+  <header>
+    <h1>Koleksi Game Favorit</h1>
+    <p>Ruang kecil untuk mengenal game dan mencatat ulasan.</p>
+    <nav aria-label="Navigasi utama">
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#koleksi-game">Koleksi Game</a></li>
+        <li><a href="#tambah-ulasan">Tambah Ulasan</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="konten-utama">
+    <section id="beranda" aria-labelledby="judul-beranda">
+      <h2 id="judul-beranda">Beranda</h2>
+      <p>Halaman ini berisi contoh katalog game, ilustrasi bertema permainan, dan formulir untuk menuliskan ulasan. Data tabel di bawah adalah contoh awal yang dapat diganti sesuai pilihan pribadi.</p>
+
+      <figure>
+        <img src="gambar-satu.svg" alt="Ilustrasi lanskap permainan fantasi dengan pegunungan, matahari, dan karakter petualang." width="800" height="450">
+        <figcaption>Ilustrasi dunia fantasi — suasana eksplorasi dan petualangan dalam game.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="gambar-kedua.svg" alt="Ilustrasi konsol permainan dengan pengendali dan layar berisi bentuk geometris berwarna." width="800" height="450">
+        <figcaption>Ilustrasi bermain game — perangkat dan visual sebagai bagian dari pengalaman bermain.</figcaption>
+      </figure>
+    </section>
+
+    <section id="koleksi-game" aria-labelledby="judul-koleksi">
+      <h2 id="judul-koleksi">Koleksi Game</h2>
+      <p>Rating pada tabel ini hanya contoh penilaian untuk latihan HTML, bukan klaim tentang preferensi pribadi pemilik halaman.</p>
+      <table>
+        <caption>Daftar game dan rating contoh</caption>
+        <thead>
+          <tr>
+            <th scope="col">Judul Game</th>
+            <th scope="col">Tahun Rilis</th>
+            <th scope="col">Genre</th>
+            <th scope="col">Rating Pribadi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Stardew Valley</th>
+            <td>2016</td>
+            <td>Simulasi / RPG</td>
+            <td>9/10 (contoh)</td>
+          </tr>
+          <tr>
+            <th scope="row">Minecraft</th>
+            <td>2011</td>
+            <td>Sandbox</td>
+            <td>9/10 (contoh)</td>
+          </tr>
+          <tr>
+            <th scope="row">Hollow Knight</th>
+            <td>2017</td>
+            <td>Metroidvania</td>
+            <td>8/10 (contoh)</td>
+          </tr>
+          <tr>
+            <th scope="row">Forza Horizon 5</th>
+            <td>2021</td>
+            <td>Balap</td>
+            <td>8/10 (contoh)</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="tambah-ulasan" aria-labelledby="judul-form">
+      <h2 id="judul-form">Tambah Ulasan</h2>
+      <p>Isi formulir ini untuk latihan elemen form HTML. Versi statis ini belum menyimpan data ke server.</p>
+      <form action="#tambah-ulasan" method="get">
+        <fieldset>
+          <legend>Informasi game</legend>
+          <p>
+            <label for="judul-game">Judul Game</label><br>
+            <input type="text" id="judul-game" name="judul" autocomplete="off" required>
+          </p>
+          <p>
+            <label for="tahun-rilis">Tahun Rilis</label><br>
+            <input type="number" id="tahun-rilis" name="tahun" min="1970" max="2035" inputmode="numeric" required>
+          </p>
+          <p>
+            <label for="rating-game">Rating (1–10)</label><br>
+            <input type="number" id="rating-game" name="rating" min="1" max="10" step="1" required>
+          </p>
+          <button type="submit">Kirim Ulasan</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Richard Halim · 124140084 · Kelas RA</p>
+    <p>Praktikum Pemrograman Aplikasi Web — Pertemuan 3</p>
+  </footer>
+</body>
+</html>
