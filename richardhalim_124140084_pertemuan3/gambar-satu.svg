@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+<title id="title">Lanskap petualangan fantasi</title><desc id="desc">Matahari di atas pegunungan, pepohonan, dan siluet petualang.</desc>
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#172554"/><stop offset="1" stop-color="#7c3aed"/></linearGradient><linearGradient id="ground" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#2dd4bf"/><stop offset="1" stop-color="#14532d"/></linearGradient></defs>
+<rect width="800" height="450" rx="22" fill="url(#sky)"/><circle cx="600" cy="105" r="54" fill="#fde68a"/><circle cx="600" cy="105" r="72" fill="#fde68a" opacity=".12"/>
+<path d="M0 290 120 170 210 255 340 115 480 260 590 175 800 300V450H0Z" fill="#312e81"/><path d="M0 335 160 240 260 300 430 190 565 315 690 225 800 295V450H0Z" fill="#4338ca"/>
+<path d="M0 350 Q160 305 300 345T570 340T800 320V450H0Z" fill="url(#ground)"/><path d="M0 390Q220 350 420 392T800 370V450H0Z" fill="#166534"/>
+<g fill="#052e2b"><path d="M85 355 120 245 155 355Z"/><path d="M112 355 140 270 170 355Z"/><path d="M675 360 710 235 748 360Z"/><path d="M710 360 740 270 770 360Z"/></g>
+<g transform="translate(385 275)"><circle cx="0" cy="0" r="15" fill="#f8d7b3"/><path d="M-15 -4Q-9 -28 8 -15L16 -3Z" fill="#1f2937"/><path d="M-17 18 14 18 24 70H-28Z" fill="#f97316"/><path d="M-19 29 -43 60 -34 66 -5 45M14 29 34 56 43 50 28 23" stroke="#f8d7b3" stroke-width="9" fill="none" stroke-linecap="round"/><path d="M-16 69 -22 112M12 69 22 112" stroke="#172554" stroke-width="12" stroke-linecap="round"/><path d="M-27 112h12M17 112h12" stroke="#0f172a" stroke-width="8" stroke-linecap="round"/></g>
+<g fill="#fff" opacity=".65"><circle cx="115" cy="70" r="2"/><circle cx="220" cy="95" r="3"/><circle cx="340" cy="50" r="2"/><circle cx="470" cy="82" r="2"/><circle cx="720" cy="55" r="3"/></g></svg>
