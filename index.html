@@ -1,93 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mini POS Kasir</title>
-<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Repository praktikum PAW Richard Halim, NIM 124140084">
+<title>PAW · Richard Halim 124140084</title>
+<style>
+:root{font-family:Inter,system-ui,sans-serif;color:#202b3d;background:#f4f6f8;--green:#316c5b;--line:#e2e7ec}*{box-sizing:border-box}body{margin:0}main{width:min(1000px,calc(100% - 36px));margin:auto}header{padding:25px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;align-items:center}header strong{letter-spacing:1.5px;font-size:12px}header span,small{color:var(--green)}header span{font-size:11px}section{padding:55px 0 25px}small{font-size:10px;font-weight:800;letter-spacing:1.5px}h1{font-size:clamp(34px,6vw,60px);line-height:1.05;letter-spacing:-2px;margin:14px 0}h1 em{font-style:normal;color:var(--green)}.intro{max-width:600px;color:#788394;line-height:1.8;font-size:14px}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:18px}.card{background:white;border:1px solid var(--line);border-radius:15px;padding:24px;display:flex;flex-direction:column;min-height:250px}.num{font-size:12px;letter-spacing:1px;color:#91a19b}.card h2{font-size:23px;margin:20px 0 8px}.card p{color:#788394;line-height:1.7;font-size:12px;flex:1}.links{display:flex;flex-wrap:wrap;gap:8px}.links a,.primary{display:inline-block;text-decoration:none;background:var(--green);color:white;padding:11px 13px;border-radius:8px;font-size:11px;font-weight:700}.links a.secondary{background:#eef4f1;color:var(--green)}footer{margin-top:30px;padding:20px 0;border-top:1px solid var(--line);font-size:10px;color:#8993a1;display:flex;justify-content:space-between;gap:12px}@media(max-width:650px){.cards{grid-template-columns:1fr}section{padding-top:35px}.card{min-height:220px}footer{flex-direction:column}}
+</style>
 </head>
-<body>
-
-<div class="container">
-<h1>🛒 Mini POS Kasir</h1>
-
-<div class="card">
-<h2>Input Barang</h2>
-
-<form id="formBarang">
-
-<label>Nama Barang</label>
-<input type="text" id="namaBarang">
-<small id="errorNama"></small>
-
-<label>Harga Satuan</label>
-<input type="number" id="hargaBarang">
-<small id="errorHarga"></small>
-
-<label>Jumlah / Qty</label>
-<input type="number" id="qtyBarang">
-<small id="errorQty"></small>
-
-<button type="submit">Tambah Keranjang</button>
-
-</form>
-</div>
-
-
-<div class="card">
-<h2>Keranjang Belanja</h2>
-
-<table>
-<thead>
-<tr>
-<th>No</th>
-<th>Nama Barang</th>
-<th>Harga</th>
-<th>Qty</th>
-<th>Subtotal</th>
-<th>Aksi</th>
-</tr>
-</thead>
-
-<tbody id="listKeranjang"></tbody>
-
-</table>
-</div>
-
-
-<div class="card">
-
-<h2>Kalkulator Pembayaran</h2>
-
-<div class="summary">
-<p>Total Belanja :
-<b id="totalBelanja">Rp0</b>
-</p>
-
-<p>Diskon :
-<b id="diskon">Rp0</b>
-</p>
-
-<p>Total Akhir :
-<b id="totalAkhir">Rp0</b>
-</p>
-</div>
-
-
-<label>Uang Bayar</label>
-<input type="number" id="uangBayar">
-
-<p id="statusBayar"></p>
-
-<button id="reset" type="button">
-Transaksi Baru
-</button>
-
-</div>
-
-</div>
-
-<script src="script.js"></script>
-
-</body>
-</html>
+<body><main><header><strong>PAW / PORTOFOLIO PRAKTIKUM</strong><span>RICHARD HALIM · 124140084</span></header><section><small>PEMROGRAMAN APLIKASI WEB</small><h1>Satu repository.<br><em>Setiap pertemuan tertata.</em></h1><p class="intro">Kumpulan latihan dan tugas praktikum yang dipisahkan per pertemuan agar mudah dijalankan, dipelajari, dan ditinjau.</p><div class="cards"><article class="card"><span class="num">PERTEMUAN 01</span><h2>Mini POS & JavaScript Dasar</h2><p>Simulasi kasir dengan validasi, keranjang, perhitungan transaksi, LocalStorage, dan empat latihan dasar JavaScript.</p><div class="links"><a href="./richardhalim_124140084_pertemuan1/README.md">Dokumentasi</a><a class="secondary" href="./richardhalim_124140084_pertemuan1/index.html">Buka Mini POS</a></div></article><article class="card"><span class="num">PERTEMUAN 02</span><h2>ES6+ & Personal Dashboard</h2><p>Demo JavaScript modern dan dashboard responsif untuk tugas, catatan, agenda, statistik progres, dan penyimpanan lokal.</p><div class="links"><a href="./richardhalim_124140084_pertemuan2/README.md">Dokumentasi</a><a class="secondary" href="./richardhalim_124140084_pertemuan2/02-tugas-personal-dashboard/index.html">Buka Dashboard</a></div></article></div></section><footer><span>Richard Halim · 124140084 · Kelas RA</span><span>Folder dibuat sesuai materi yang sudah tersedia.</span></footer></main></body></html>
