@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mini POS Kasir</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+<h1>🛒 Mini POS Kasir</h1>
+
+<div class="card">
+<h2>Input Barang</h2>
+
+<form id="formBarang">
+
+<label>Nama Barang</label>
+<input type="text" id="namaBarang">
+<small id="errorNama"></small>
+
+<label>Harga Satuan</label>
+<input type="number" id="hargaBarang">
+<small id="errorHarga"></small>
+
+<label>Jumlah / Qty</label>
+<input type="number" id="qtyBarang">
+<small id="errorQty"></small>
+
+<button type="submit">Tambah Keranjang</button>
+
+</form>
+</div>
+
+
+<div class="card">
+<h2>Keranjang Belanja</h2>
+
+<table>
+<thead>
+<tr>
+<th>No</th>
+<th>Nama Barang</th>
+<th>Harga</th>
+<th>Qty</th>
+<th>Subtotal</th>
+<th>Aksi</th>
+</tr>
+</thead>
+
+<tbody id="listKeranjang"></tbody>
+
+</table>
+</div>
+
+
+<div class="card">
+
+<h2>Kalkulator Pembayaran</h2>
+
+<div class="summary">
+<p>Total Belanja :
+<b id="totalBelanja">Rp0</b>
+</p>
+
+<p>Diskon :
+<b id="diskon">Rp0</b>
+</p>
+
+<p>Total Akhir :
+<b id="totalAkhir">Rp0</b>
+</p>
+</div>
+
+
+<label>Uang Bayar</label>
+<input type="number" id="uangBayar">
+
+<p id="statusBayar"></p>
+
+<button id="reset" type="button">
+Transaksi Baru
+</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
