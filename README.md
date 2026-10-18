@@ -91,3 +91,10 @@ HTML5
 CSS3  
 JavaScript  
 LocalStorage
+
+
+## Praktikum PAW — Pertemuan 2 (NIM 124140084)
+
+- [Folder tugas](./richardhalim_124140084_pertemuan2/README.md)
+- [Praktikum JavaScript ES6+](./richardhalim_124140084_pertemuan2/01-praktikum-js-nextgen/README.md)
+- [Personal Dashboard](./richardhalim_124140084_pertemuan2/02-tugas-personal-dashboard/README.md)
