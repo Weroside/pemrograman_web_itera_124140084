@@ -1,6 +1,6 @@
 # Manajemen Buku Pribadi
 
-Richard Halim · 124140084 · Kelas RA  
+Richard Halim · 124140084 · Kelas RA
 Praktikum PAW — Pertemuan 3 (React Basics)
 
 Aplikasi sederhana untuk mencatat koleksi buku. Buku dibagi menjadi tiga status: **milik** (sudah dimiliki), **baca** (sedang dibaca), dan **beli** (ingin dibeli). Status merupakan satu kategori aktif per buku. Data contoh disediakan saat pertama kali aplikasi dibuka.

@@ -15,7 +15,7 @@ export function BookFilter({
           type="search"
           value={query}
           onChange={(e) => onQueryChange(e.target.value)}
-          placeholder="Cari buku�"
+          placeholder="Cari buku..."
         />
       </label>
       <label>
