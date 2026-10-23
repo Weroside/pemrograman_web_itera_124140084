@@ -1,0 +1,13 @@
+
+<h1>DOM LocalStorage Todo</h1>
+<button onclick="dark()">Dark Mode</button>
+<input id="todo">
+<button onclick="add()">Tambah</button>
+<ul id="list"></ul>
+<script>
+let data=JSON.parse(localStorage.getItem("todo"))||[];
+function add(){data.push(todo.value);localStorage.setItem("todo",JSON.stringify(data));render();}
+function render(){list.innerHTML=data.map(x=>"<li>"+x+"</li>").join("");}
+function dark(){document.body.classList.toggle("dark");}
+render();
+</script>

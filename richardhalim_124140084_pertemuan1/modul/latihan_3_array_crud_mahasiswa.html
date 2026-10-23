@@ -1,0 +1,12 @@
+
+<h1>CRUD Mahasiswa</h1>
+<table border="1" id="tabel"></table>
+<script>
+let mahasiswa=[
+{nama:"Ani",nim:"1",jurusan:"TI",nilai:90},
+{nama:"Budi",nim:"2",jurusan:"SI",nilai:80},
+{nama:"Cici",nim:"3",jurusan:"TI",nilai:70},
+{nama:"Doni",nim:"4",jurusan:"TK",nilai:85},
+{nama:"Eka",nim:"5",jurusan:"TI",nilai:75}];
+tabel.innerHTML=mahasiswa.map(x=>`<tr><td>${x.nama}</td><td>${x.nilai}</td></tr>`).join("");
+</script>

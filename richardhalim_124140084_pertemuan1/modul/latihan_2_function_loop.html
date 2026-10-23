@@ -1,0 +1,8 @@
+
+<h1>Function Loop</h1>
+<script>
+for(let i=1;i<=10;i++) console.log(i*5);
+function faktorial(n){let h=1;for(let i=1;i<=n;i++)h*=i;return h;}
+function prima(n){for(let i=2;i<n;i++)if(n%i==0)return false;return true;}
+for(let i=1;i<=100;i++)console.log(i%15==0?"FizzBuzz":i%3==0?"Fizz":i%5==0?"Buzz":i);
+</script>
