@@ -18,7 +18,7 @@ Repository ini menyimpan tugas praktikum secara terstruktur, satu folder untuk s
 - [Latihan JavaScript Pertemuan 1](./richardhalim_124140084_pertemuan1/modul/)
 - [Lab JavaScript ES6+](./richardhalim_124140084_pertemuan2/01-praktikum-js-nextgen/README.md)
 - [Personal Dashboard](./richardhalim_124140084_pertemuan2/02-tugas-personal-dashboard/README.md)
-- [Halaman Profil Pertemuan 3](./richardhalim_124140084_pertemuan3/profil.html)
+- [Panduan aplikasi React Pertemuan 3](./richardhalim_124140084_pertemuan3/README.md)
 
 ## Menjalankan aplikasi
 
