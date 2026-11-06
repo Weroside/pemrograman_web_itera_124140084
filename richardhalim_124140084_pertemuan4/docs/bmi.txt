@@ -1,5 +1,7 @@
 PENGHITUNG BMI
 Richard Halim | 124140084
-Berat badan (kg): Tinggi badan (m): 
+Berat badan (kg): 65
+Tinggi badan (m): 1.70
+
 BMI      : 22.49
 Kategori : Berat badan normal
