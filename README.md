@@ -11,6 +11,7 @@ Repository ini menyimpan tugas praktikum secara terstruktur, satu folder untuk s
 | 1 | Mini POS Kasir, latihan JavaScript dasar, function/loop, array/CRUD, DOM dan LocalStorage | [Buka folder Pertemuan 1](./richardhalim_124140084_pertemuan1/README.md) |
 | 2 | Praktikum JavaScript Next Gen (ES6+) dan Personal Dashboard | [Buka folder Pertemuan 2](./richardhalim_124140084_pertemuan2/README.md) |
 | 3 | Halaman Profil — Koleksi Game Favorit (HTML semantik, gambar, tabel, formulir) | [Buka folder Pertemuan 3](./richardhalim_124140084_pertemuan3/README.md) |
+| 4 | Python dasar: BMI, nilai mahasiswa, dan modul matematika | [Buka folder Pertemuan 4](./richardhalim_124140084_pertemuan4/README.md) |
 
 ## Akses cepat
 
@@ -19,6 +20,8 @@ Repository ini menyimpan tugas praktikum secara terstruktur, satu folder untuk s
 - [Lab JavaScript ES6+](./richardhalim_124140084_pertemuan2/01-praktikum-js-nextgen/README.md)
 - [Personal Dashboard](./richardhalim_124140084_pertemuan2/02-tugas-personal-dashboard/README.md)
 - [Panduan aplikasi React Pertemuan 3](./richardhalim_124140084_pertemuan3/README.md)
+
+- [Tugas Python Pertemuan 4](./richardhalim_124140084_pertemuan4/README.md)
 
 ## Menjalankan aplikasi
 

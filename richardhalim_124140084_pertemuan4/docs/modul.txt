@@ -1,0 +1,20 @@
+MODUL MATEMATIKA | Richard Halim | 124140084
+Konstanta PI = 3.14159
+
+PERSEGI (satuan: cm)
+Sisi 4: luas 16.00 cm^2 | keliling 16.00 cm
+Sisi 7.5: luas 56.25 cm^2 | keliling 30.00 cm
+
+PERSEGI PANJANG (satuan: cm)
+Panjang 8, lebar 3: luas 24.00 cm^2 | keliling 22.00 cm
+Panjang 10.5, lebar 4: luas 42.00 cm^2 | keliling 29.00 cm
+
+LINGKARAN (satuan: cm)
+Jari-jari 7: luas 153.94 cm^2 | keliling 43.98 cm
+Jari-jari 2.5: luas 19.63 cm^2 | keliling 15.71 cm
+
+KONVERSI SUHU
+ -40 C =  -40.00 F =  233.15 K
+   0 C =   32.00 F =  273.15 K
+  25 C =   77.00 F =  298.15 K
+ 100 C =  212.00 F =  373.15 K

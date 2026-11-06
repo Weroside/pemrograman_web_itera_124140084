@@ -1,0 +1,5 @@
+PENGHITUNG BMI
+Richard Halim | 124140084
+Berat badan (kg): Tinggi badan (m): 
+BMI      : 22.49
+Kategori : Berat badan normal

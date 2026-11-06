@@ -1,0 +1,31 @@
+test_batas_kategori (test_tugas.UjiBMI.test_batas_kategori)
+Tanpa parameter; cek setiap interval tepat di batas dan di ... ok
+test_input_diulang (test_tugas.UjiBMI.test_input_diulang)
+Tanpa parameter; pastikan masukan salah diulang hingga angka ... ok
+test_input_tidak_valid (test_tugas.UjiBMI.test_input_tidak_valid)
+Tanpa parameter; pastikan nol, negatif, NaN, dan infinity ... ok
+test_rumus (test_tugas.UjiBMI.test_rumus)
+Tanpa parameter; pastikan berat 65 dan tinggi 1.7 menghasilkan ... ok
+test_cli (test_tugas.UjiModul.test_cli)
+Tanpa parameter; jalankan ketiga skrip dan periksa hasil ... ok
+test_geometri (test_tugas.UjiModul.test_geometri)
+Tanpa parameter; cek keenam fungsi geometri dan sisi nol. ... ok
+test_geometri_invalid (test_tugas.UjiModul.test_geometri_invalid)
+Tanpa parameter; pastikan setiap fungsi menolak ukuran yang ... ok
+test_suhu (test_tugas.UjiModul.test_suhu)
+Tanpa parameter; cek suhu negatif, titik beku, dan titik didih. ... ok
+test_bobot (test_tugas.UjiNilai.test_bobot)
+Tanpa parameter; cek formula 30:40:30 dengan nilai yang berbeda. ... ok
+test_data_dan_ekstrem (test_tugas.UjiNilai.test_data_dan_ekstrem)
+Tanpa parameter; cek minimal lima data, kelengkapan, dan ekstrem. ... ok
+test_grade (test_tugas.UjiNilai.test_grade)
+Tanpa parameter; cek batas bawah dan atas semua grade A sampai E. ... ok
+test_nilai_invalid (test_tugas.UjiNilai.test_nilai_invalid)
+Tanpa parameter; cek nilai di luar 0-100 dan nilai nonfinit ... ok
+test_seri_dan_kosong (test_tugas.UjiNilai.test_seri_dan_kosong)
+Tanpa parameter; cek semua pemenang seri serta penolakan data ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.088s
+
+OK
